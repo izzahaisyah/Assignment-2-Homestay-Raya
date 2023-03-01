@@ -1,6 +1,5 @@
-import 'package:assignment_2_279456/views/splashscreen.dart';
+import 'package:assignment_2_279456/views/screens/splashscreen.dart';
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const MyApp());
 }

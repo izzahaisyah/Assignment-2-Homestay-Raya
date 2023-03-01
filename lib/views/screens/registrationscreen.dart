@@ -1,11 +1,9 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:fluttertoast/fluttertoast.dart';
-
-import '../config.dart';
+import '../../config.dart';
 
 class RegistrationScreen extends StatefulWidget {
   const RegistrationScreen({super.key});
@@ -33,6 +31,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   bool _passwordVisible = true;
   final _formKey = GlobalKey<FormState>();
   String eula = "";
+  late double screenHeight, screenWidth, cardwitdh;
+  //var pathAsset = "assets/images/register.jpg";
 
   @override
   Widget build(BuildContext context) {

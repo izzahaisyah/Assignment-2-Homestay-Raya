@@ -29,13 +29,28 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  cached_network_image: ^3.2.3
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  flutter_cache_manager: ^3.3.0
   fluttertoast: ^8.1.2
+  geocoding: ^2.0.5
+  geolocator: ^9.0.2
+  google_fonts: ^3.0.1
+  google_maps_flutter: ^2.2.3
   http: ^0.13.5
+  image_cropper: ^3.0.1
+  image_picker: ^0.8.6
+  intl: ^0.18.0
+  ndialog: ^4.2.2
+  shared_preferences: ^2.0.15
+  url_launcher: ^6.1.7
+  webview_flutter: ^3.0.4
 
 dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -43,8 +58,6 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
-  flutter_test:
-    sdk: flutter
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -59,7 +72,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
-  #  - assets/images/
+    - assets/images/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
